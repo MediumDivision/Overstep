@@ -1,0 +1,39 @@
+{
+  "name": "overstep",
+  "version": "1.0.0",
+  "description": "Interface for creating and responding to abstract objects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MediumDivision/Overstep.git"
+  },
+  "keywords": [
+    "midi",
+    "audio",
+    "visual",
+    "webgl",
+    "webaudio",
+    "art",
+    "graphics",
+    "javascript"
+  ],
+  "author": "jeff@mediumdivision.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MediumDivision/Overstep/issues"
+  },
+  "homepage": "https://github.com/MediumDivision/Overstep#readme",
+  "devDependencies": {
+    "jspm": "^0.16.27"
+  },
+  "jspm": {
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
